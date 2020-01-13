@@ -1,0 +1,24 @@
+#插件名字
+name: TestPlugin
+#插件作者
+authors: [MountCloud]
+#插件的主页
+website: http://www.mountcloud.org
+#插件描述
+description: this is test plugin.
+
+#使用mc-plugin-common必须设置依赖关系为 [McPluginCommon]，use mc-plugin-common must set the dependency [McPluginCommon]
+depend: [McPluginCommon]
+
+#main函数类
+main: org.mountcloud.mcplugin.TestPlugin
+#版本
+version: 1.0
+#插件需要注册的命令
+commands:
+ #命令是test
+ test:
+  #描述
+  description: prefix
+  #用法
+  usage: /prefix
